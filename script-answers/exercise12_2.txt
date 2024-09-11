@@ -1,0 +1,176 @@
+Script started on 2024-09-11 13:32:29+05:45 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="170" LINES="13"]
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ docker un [K[K[Krun contain[K[K[K[K[K[K[K[K[K[K[Kcontainer run hello-world
+[?2004l
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ 
+[K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ 
+[K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ mkdir /usr/src/app
+[?2004l
+mkdir: cannot create directory ‘/usr/src/app’: Permission denied
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ suod mkdir u[K/usr/src/app
+[?2004l
+Command 'suod' not found, did you mean:
+  command 'sudo' from deb sudo (1.9.9-1ubuntu2.4)
+  command 'sudo' from deb sudo-ldap (1.9.9-1ubuntu2.4)
+Try: sudo apt install <deb name>
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ suod mkdir /usr/src/app[C[C[C[C[1P[1P[1@d[1@o
+[?2004l
+[sudo] password for prajwal: 
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ ls
+[?2004l
+[0m[34;42mscript-answers[0m  [34;42mtodo-app[0m  [01;32mtypescript[0m
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [7msudo mkdir -p /usr/src/app[27m
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo mkdir -p /usr/src/app
+
+[A
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ ls /use[Kr/src
+[?2004l
+[0m[01;34mapp[0m
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ la -la /usr/a[K[K/src
+[?2004l
+total 12
+drwxr-xr-x  3 root root 4096 Sep 11 13:36 [0m[01;34m.[0m
+drwxr-xr-x 14 root root 4096 Nov 23  2023 [01;34m..[0m
+drwxr-xr-x  2 root root 4096 Sep 11 13:36 [01;34mapp[0m
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ la -la /usr/src/app
+[?2004l
+total 8
+drwxr-xr-x 2 root root 4096 Sep 11 13:36 [0m[01;34m.[0m
+drwxr-xr-x 3 root root 4096 Sep 11 13:36 [01;34m..[0m
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [7msudo chmod 755 /usr/src/app[27m
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chmod 755 /usr/src/app
+
+[A
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ sudo chmod 755 /usr/src/app[8Pla -la[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+total 8
+drwxr-xr-x 2 root root 4096 Sep 11 13:36 [0m[01;34m.[0m
+drwxr-xr-x 3 root root 4096 Sep 11 13:36 [01;34m..[0m
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ 
+[K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ 
+[K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ 
+[K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ 
+[K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ 
+[K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ touch /s[Kusr/sc[Krc/app/index.js
+[?2004l
+touch: cannot touch '/usr/src/app/index.js': Permission denied
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ soudo[K[K[K[K[Ktouch /usr/src/app/index.js[1@s[1@u[1@d[1@o[1@ 
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ c[Kls
+[?2004l
+[0m[34;42mscript-answers[0m  [34;42mtodo-app[0m  [01;32mtypescript[0m
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ cd usr
+[?2004l
+bash: cd: usr: No such file or directory
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ cd /usr
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ ls
+[?2004l
+[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ src
+[?2004l
+Command 'src' not found, but can be installed with:
+sudo apt install simple-revision-control
+[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ cd src
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /usr/src[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src[00m$ cd qp[K[Kapp/
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ ls
+[?2004l
+index.js
+[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ clear
+[?2004l
+[H[2J[3J[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ cd D:/
+[?2004l
+bash: cd: D:/: No such file or directory
+[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ cd hom[K[K[Kmo[Knt
+[?2004l
+bash: cd: mnt: No such file or directory
+[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ cd ~/mnt
+[?2004l
+bash: cd: /home/prajwal/mnt: No such file or directory
+[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ cd ..
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /usr/src[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src[00m$ cd ..
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ cd..
+[?2004l
+lcd..: command not found
+s[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ ls
+[?2004l
+[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ cd [K[K[Kcd ..
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /[01;32mprajwal@PrajwalShrestha[00m:[01;34m/[00m$ cl[K[Kls
+[?2004l
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[?2004h]0;prajwal@PrajwalShrestha: /[01;32mprajwal@PrajwalShrestha[00m:[01;34m/[00m$ cd mnt
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /mnt[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt[00m$ cd d
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d[00m$ ls
+[?2004l
+ls: cannot access 'E:': No such file or directory
+[0m[34;42m'$RECYCLE.BIN'[0m                                   [34;42mMachine[0m                      [34;42mVsCODE[0m
+ [34;42mBajra[0m                                          [34;42m'Major Project'[0m               [34;42mWUDownloadCache[0m
+ [34;42mBootcamp[0m                                        [01;34mMapData[0m                      [34;42mWeatherAppUsingFlutter-main[0m
+[01;32m'Buckler C. Node.js. Novice to Ninja 2022.pdf'[0m   [34;42mMervix[0m                       [01;34mWindowsApps[0m
+ [34;42mDjango[0m                                         [01;34m'Microsoft VS Code'[0m           [34;42mXampp[0m
+ [34;42mDocker[0m                                          [34;42mMongoDb[0m                     [01;32m'[O`Reilly] - JavaScript. The Definitive Guide, 6th ed. - [Flanagan].pdf ( PDFDrive ).pdf'[0m
+ [01;34mDocuments[0m                                       [34;42mNODE.JS[0m                      [34;42mcontainer[0m
+ [01;34mDownloads[0m                                      [34;42m'New folder'[0m                  [01;32mcoverletter.docx[0m
+ [01;34mE:[0m                                              [34;42mOOP[0m                          [34;42mday2[0m
+[34;42m'Fifth Sem'[0m                                      [34;42mPcloud[0m                       [34;42memu8086[0m
+ [34;42mFlutter[0m                                         [01;34mPictures[0m                     [34;42millustrator[0m
+ [34;42mGit[0m                                             [01;34mPostGRESQL[0m                   [01;32mindex.dat[0m
+ [34;42mGithub[0m                                         [01;34m'Program Files'[0m               [34;42mmsdownld.tmp[0m
+ [34;42mGitlab[0m                                          [34;42mREACT[0m                        [01;34mpgsql[0m
+ [34;42mHod[0m                                             [01;32mSign.JPG[0m                     [01;32mprajwalshrestharesume.docx[0m
+ [34;42mInstall[0m                                        [34;42m'Sixth Semester'[0m              [01;32mprajwalshrestharesume.pdf[0m
+[34;42m'Jupyter Notebook'[0m                               [01;34mSpaceLutuwas[0m                 [34;42mshare[0m
+ [34;42mLaravel[0m                                         [34;42mSunyaApi[0m                     [34;42mvar[0m
+ [34;42mLatex[0m                                          [01;34m'System Volume Information'[0m
+ [34;42mLatexpc[0m                                        [34;42m'Telegram Desktop'[0m
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d[00m$ cd container/
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container[00m$ cd containers-applications/
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ mkdir usr/src/app
+[?2004l
+mkdir: cannot create directory ‘usr/src/app’: No such file or directory
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ mkdir usr/src/app-usr/src/apppusr/src/app usr/src/app
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ tou[K[K[Ktouch usr/src/app/index.js
+[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ clear
+[?2004l
+[H[2J[3J[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-09-11 13:43:58+05:45 [COMMAND_EXIT_CODE="0"]
