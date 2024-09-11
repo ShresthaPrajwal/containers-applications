@@ -1,124 +1,86 @@
-Script started on 2024-09-11 13:32:29+05:45 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="170" LINES="13"]
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ docker un [K[K[Krun contain[K[K[K[K[K[K[K[K[K[K[Kcontainer run hello-world
-[?2004l
-Hello from Docker!
-This message shows that your installation appears to be working correctly.
-
-To generate this message, Docker took the following steps:
- 1. The Docker client contacted the Docker daemon.
- 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
-    (amd64)
- 3. The Docker daemon created a new container from that image which runs the
-    executable that produces the output you are currently reading.
- 4. The Docker daemon streamed that output to the Docker client, which sent it
-    to your terminal.
-
-To try something more ambitious, you can run an Ubuntu container with:
- $ docker run -it ubuntu bash
-
-Share images, automate workflows, and more with a free Docker ID:
- https://hub.docker.com/
-
-For more examples and ideas, visit:
- https://docs.docker.com/get-started/
-
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ mkdir /usr/src/app
-[?2004lmkdir: cannot create directory ‘/usr/src/app’: Permission denied
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ suod mkdir u[K/usr/src/app
-[?2004lCommand 'suod' not found, did you mean:
-  command 'sudo' from deb sudo (1.9.9-1ubuntu2.4)
-  command 'sudo' from deb sudo-ldap (1.9.9-1ubuntu2.4)
-Try: sudo apt install <deb name>
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ suod mkdir /usr/src/app[C[C[C[C[1P[1P[1@d[1@o
+Script started on 2024-09-11 17:37:41+05:45 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="176" LINES="13"]
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ node user[K[K[K[Kscript-answers/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K usr/src/app/
+[?2004l^C[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ node usr/src/app/index.js 
+[?2004lCommand 'node' not found, but can be installed with:
+sudo apt install nodejs
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ kd[K[K[7mcurl -sL https://deb.nodesource.com/setup_20.x | bash[27m
+[7mapt install -y nodejs[27m[A]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ curl -sL https://deb.nodesource.com/setup_20.x | bash
+apt install -y nodejs
+[?2004l[38;5;79m2024-09-11 17:38:31 - Installing pre-requisites[0m
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+[1;31m2024-09-11 17:38:32 - Error: Failed to run 'apt-get update' (Exit Code: 0)[0m
+[1;31mE: [0mCould not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)[0m
+[1;31mE: [0mUnable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?[0m
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ apt -get[K[K[K[K[K-get update
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ apt install -y nodejs
+[?2004l[1;31mE: [0mCould not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)[0m
+[1;31mE: [0mUnable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?[0m
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ sudo apt inat[K[Kt[Kstall -y nodejs
 [?2004l[sudo] password for prajwal: 
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ ls
-[?2004l[0m[34;42mscript-answers[0m  [34;42mtodo-app[0m  [01;32mtypescript[0m
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [7msudo mkdir -p /usr/src/app[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo mkdir -p /usr/src/app
-[A
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ ls /use[Kr/src
-[?2004l[0m[01;34mapp[0m
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ la -la /usr/a[K[K/src
-[?2004ltotal 12
-drwxr-xr-x  3 root root 4096 Sep 11 13:36 [0m[01;34m.[0m
-drwxr-xr-x 14 root root 4096 Nov 23  2023 [01;34m..[0m
-drwxr-xr-x  2 root root 4096 Sep 11 13:36 [01;34mapp[0m
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ la -la /usr/src/app
-[?2004ltotal 8
-drwxr-xr-x 2 root root 4096 Sep 11 13:36 [0m[01;34m.[0m
-drwxr-xr-x 3 root root 4096 Sep 11 13:36 [01;34m..[0m
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [7msudo chmod 755 /usr/src/app[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chmod 755 /usr/src/app
-[A
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ sudo chmod 755 /usr/src/app[8Pla -la[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004ltotal 8
-drwxr-xr-x 2 root root 4096 Sep 11 13:36 [0m[01;34m.[0m
-drwxr-xr-x 3 root root 4096 Sep 11 13:36 [01;34m..[0m
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ [K]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ touch /s[Kusr/sc[Krc/app/index.js
-[?2004ltouch: cannot touch '/usr/src/app/index.js': Permission denied
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ soudo[K[K[K[K[Ktouch /usr/src/app/index.js[1@s[1@u[1@d[1@o[1@ 
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ c[Kls
-[?2004l[0m[34;42mscript-answers[0m  [34;42mtodo-app[0m  [01;32mtypescript[0m
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ cd usr
-[?2004lbash: cd: usr: No such file or directory
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ cd /usr
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ ls
-[?2004l[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
-[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ src
-[?2004lCommand 'src' not found, but can be installed with:
-sudo apt install simple-revision-control
-[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ cd src
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /usr/src[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src[00m$ cd qp[K[Kapp/
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ ls
-[?2004lindex.js
-[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ clear
-[?2004l[H[2J[3J[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ cd D:/
-[?2004lbash: cd: D:/: No such file or directory
-[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ cd hom[K[K[Kmo[Knt
-[?2004lbash: cd: mnt: No such file or directory
-[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ cd ~/mnt
-[?2004lbash: cd: /home/prajwal/mnt: No such file or directory
-[?2004h]0;prajwal@PrajwalShrestha: /usr/src/app[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src/app[00m$ cd ..
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /usr/src[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr/src[00m$ cd ..
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ cd..
-[?2004llcd..: command not found
-s[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ ls
-[?2004l[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
-[?2004h]0;prajwal@PrajwalShrestha: /usr[01;32mprajwal@PrajwalShrestha[00m:[01;34m/usr[00m$ cd [K[K[Kcd ..
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /[01;32mprajwal@PrajwalShrestha[00m:[01;34m/[00m$ cl[K[Kls
-[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;32minit[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mlost+found[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msnap[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
-[?2004h]0;prajwal@PrajwalShrestha: /[01;32mprajwal@PrajwalShrestha[00m:[01;34m/[00m$ cd mnt
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /mnt[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt[00m$ cd d
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /mnt/d[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d[00m$ ls
-[?2004lls: cannot access 'E:': No such file or directory
-[0m[34;42m'$RECYCLE.BIN'[0m                                   [34;42mMachine[0m                      [34;42mVsCODE[0m
- [34;42mBajra[0m                                          [34;42m'Major Project'[0m               [34;42mWUDownloadCache[0m
- [34;42mBootcamp[0m                                        [01;34mMapData[0m                      [34;42mWeatherAppUsingFlutter-main[0m
-[01;32m'Buckler C. Node.js. Novice to Ninja 2022.pdf'[0m   [34;42mMervix[0m                       [01;34mWindowsApps[0m
- [34;42mDjango[0m                                         [01;34m'Microsoft VS Code'[0m           [34;42mXampp[0m
- [34;42mDocker[0m                                          [34;42mMongoDb[0m                     [01;32m'[O`Reilly] - JavaScript. The Definitive Guide, 6th ed. - [Flanagan].pdf ( PDFDrive ).pdf'[0m
- [01;34mDocuments[0m                                       [34;42mNODE.JS[0m                      [34;42mcontainer[0m
- [01;34mDownloads[0m                                      [34;42m'New folder'[0m                  [01;32mcoverletter.docx[0m
- [01;34mE:[0m                                              [34;42mOOP[0m                          [34;42mday2[0m
-[34;42m'Fifth Sem'[0m                                      [34;42mPcloud[0m                       [34;42memu8086[0m
- [34;42mFlutter[0m                                         [01;34mPictures[0m                     [34;42millustrator[0m
- [34;42mGit[0m                                             [01;34mPostGRESQL[0m                   [01;32mindex.dat[0m
- [34;42mGithub[0m                                         [01;34m'Program Files'[0m               [34;42mmsdownld.tmp[0m
- [34;42mGitlab[0m                                          [34;42mREACT[0m                        [01;34mpgsql[0m
- [34;42mHod[0m                                             [01;32mSign.JPG[0m                     [01;32mprajwalshrestharesume.docx[0m
- [34;42mInstall[0m                                        [34;42m'Sixth Semester'[0m              [01;32mprajwalshrestharesume.pdf[0m
-[34;42m'Jupyter Notebook'[0m                               [01;34mSpaceLutuwas[0m                 [34;42mshare[0m
- [34;42mLaravel[0m                                         [34;42mSunyaApi[0m                     [34;42mvar[0m
- [34;42mLatex[0m                                          [01;34m'System Volume Information'[0m
- [34;42mLatexpc[0m                                        [34;42m'Telegram Desktop'[0m
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d[00m$ cd container/
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container[00m$ cd containers-applications/
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ mkdir usr/src/app
-[?2004lmkdir: cannot create directory ‘usr/src/app’: No such file or directory
-[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ mkdir usr/src/app-usr/src/apppusr/src/app usr/src/app
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ tou[K[K[Ktouch usr/src/app/index.js
-[?2004l[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ clear
-[?2004l[H[2J[3J[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ exit
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  javascript-common libc-ares2 libjs-highlight.js libnode72 nodejs-doc
+Suggested packages:
+  apache2 | lighttpd | httpd npm
+The following NEW packages will be installed:
+  javascript-common libc-ares2 libjs-highlight.js libnode72 nodejs nodejs-doc
+0 upgraded, 6 newly installed, 0 to remove and 130 not upgraded.
+Need to get 13.7 MB of archives.
+After this operation, 54.0 MB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Connecting to archive.ubuntu.com (91.189.91.83)][0m^[[A                                                    Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 javascript-common all 11+nmu1 [5936 B]
+[33m                                                    0% [1 javascript-common 5936 B/5936 B 100%][0m[33m                                           3% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libjs-highlight.js all 9.18.5+dfsg1-1 [367 kB]
+[33m3% [2 libjs-highlight.js 6708 B/367 kB 2%][0m[33m4% [2 libjs-highlight.js 44.5 kB/367 kB 12%][0m[33m                                            4% [2 libjs-highlight.js 127 kB/367 kB 35%][0m[33m                                           9% [Waiting for headers][0m                        Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-ares2 amd64 1.18.1-1ubuntu0.22.04.3 [45.1 kB]
+[33m9% [3 libc-ares2 478 B/45.1 kB 1%][0m[33m                                  12% [Waiting for headers][0m                         Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libnode72 amd64 12.22.9~dfsg-1ubuntu3.6 [10.8 MB]
+[33m12% [4 libnode72 2659 B/10.8 MB 0%][0m[33m17% [4 libnode72 806 kB/10.8 MB 7%][0m[33m31% [4 libnode72 3128 kB/10.8 MB 29%][0m[33m55% [4 libnode72 7255 kB/10.8 MB 67%][0m[33m59% [4 libnode72 8057 kB/10.8 MB 75%][0m[33m                                     79% [Waiting for headers][0m                         Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 nodejs-doc all 12.22.9~dfsg-1ubuntu3.6 [2411 kB]
+[33m79% [5 nodejs-doc 28.7 kB/2411 kB 1%][0m[33m89% [5 nodejs-doc 1800 kB/2411 kB 75%][0m[33m90% [5 nodejs-doc 1931 kB/2411 kB 80%]                                                                                                                             2178 kB/s 0s[0m[33m96% [Waiting for headers]                                                                                                                                          2178 kB/s 0s[0m                                                                                                                                                                               Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 nodejs amd64 12.22.9~dfsg-1ubuntu3.6 [122 kB]
+[33m96% [6 nodejs 20.5 kB/122 kB 17%]                                                                                                                                  2178 kB/s 0s[0m[33m100% [Working]                                                                                                                                                     2178 kB/s 0s[0m                                                                                                                                                                               Fetched 13.7 MB in 6s (2198 kB/s)
+^[[A
+7[0;12r8[1ASelecting previously unselected package javascript-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 24799 files and directories currently installed.)
+Preparing to unpack .../0-javascript-common_11+nmu1_all.deb ...
+7[13;0f[42m[30mProgress: [  0%][49m[39m [..........................................................................................................................................................] 87[13;0f[42m[30mProgress: [  4%][49m[39m [######....................................................................................................................................................] 8Unpacking javascript-common (11+nmu1) ...
+7[13;0f[42m[30mProgress: [  8%][49m[39m [############..............................................................................................................................................] 8Selecting previously unselected package libjs-highlight.js.
+Preparing to unpack .../1-libjs-highlight.js_9.18.5+dfsg1-1_all.deb ...
+7[13;0f[42m[30mProgress: [ 12%][49m[39m [##################........................................................................................................................................] 8Unpacking libjs-highlight.js (9.18.5+dfsg1-1) ...
+7[13;0f[42m[30mProgress: [ 16%][49m[39m [########################..................................................................................................................................] 8Selecting previously unselected package libc-ares2:amd64.
+Preparing to unpack .../2-libc-ares2_1.18.1-1ubuntu0.22.04.3_amd64.deb ...
+7[13;0f[42m[30mProgress: [ 20%][49m[39m [##############################............................................................................................................................] 8Unpacking libc-ares2:amd64 (1.18.1-1ubuntu0.22.04.3) ...
+7[13;0f[42m[30mProgress: [ 24%][49m[39m [####################################......................................................................................................................] 8Selecting previously unselected package libnode72:amd64.
+Preparing to unpack .../3-libnode72_12.22.9~dfsg-1ubuntu3.6_amd64.deb ...
+7[13;0f[42m[30mProgress: [ 28%][49m[39m [###########################################...............................................................................................................] 8Unpacking libnode72:amd64 (12.22.9~dfsg-1ubuntu3.6) ...
+7[13;0f[42m[30mProgress: [ 32%][49m[39m [#################################################.........................................................................................................] 8Selecting previously unselected package nodejs-doc.
+Preparing to unpack .../4-nodejs-doc_12.22.9~dfsg-1ubuntu3.6_all.deb ...
+7[13;0f[42m[30mProgress: [ 36%][49m[39m [#######################################################...................................................................................................] 8Unpacking nodejs-doc (12.22.9~dfsg-1ubuntu3.6) ...
+7[13;0f[42m[30mProgress: [ 40%][49m[39m [#############################################################.............................................................................................] 8Selecting previously unselected package nodejs.
+Preparing to unpack .../5-nodejs_12.22.9~dfsg-1ubuntu3.6_amd64.deb ...
+7[13;0f[42m[30mProgress: [ 44%][49m[39m [###################################################################.......................................................................................] 8Unpacking nodejs (12.22.9~dfsg-1ubuntu3.6) ...
+7[13;0f[42m[30mProgress: [ 48%][49m[39m [#########################################################################.................................................................................] 8Setting up javascript-common (11+nmu1) ...
+7[13;0f[42m[30mProgress: [ 52%][49m[39m [################################################################################..........................................................................] 87[13;0f[42m[30mProgress: [ 56%][49m[39m [######################################################################################....................................................................] 8Setting up libc-ares2:amd64 (1.18.1-1ubuntu0.22.04.3) ...
+7[13;0f[42m[30mProgress: [ 60%][49m[39m [############################################################################################..............................................................] 87[13;0f[42m[30mProgress: [ 64%][49m[39m [##################################################################################################........................................................] 8Setting up libnode72:amd64 (12.22.9~dfsg-1ubuntu3.6) ...
+7[13;0f[42m[30mProgress: [ 68%][49m[39m [########################################################################################################..................................................] 87[13;0f[42m[30mProgress: [ 72%][49m[39m [##############################################################################################################............................................] 8Setting up libjs-highlight.js (9.18.5+dfsg1-1) ...
+7[13;0f[42m[30mProgress: [ 76%][49m[39m [#####################################################################################################################.....................................] 87[13;0f[42m[30mProgress: [ 80%][49m[39m [###########################################################################################################################...............................] 8Setting up nodejs (12.22.9~dfsg-1ubuntu3.6) ...
+7[13;0f[42m[30mProgress: [ 84%][49m[39m [#################################################################################################################################.........................] 8update-alternatives: using /usr/bin/nodejs to provide /usr/bin/js (js) in auto mode
+7[13;0f[42m[30mProgress: [ 88%][49m[39m [#######################################################################################################################################...................] 8Setting up nodejs-doc (12.22.9~dfsg-1ubuntu3.6) ...
+7[13;0f[42m[30mProgress: [ 92%][49m[39m [#############################################################################################################################################.............] 87[13;0f[42m[30mProgress: [ 96%][49m[39m [###################################################################################################################################################.......] 8Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
+
+7[0;13r8[1A[J[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ sudo apt install -y nodejs[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P-get update install -y nodejscurl -sL https://deb.nodesource.com/setup_20.x | bash[27Pnode usr/src/app/index.js 
+[?2004l[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ node usr/src/app/index.js 
+[?2004lHello world
+[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;prajwal@PrajwalShrestha: /mnt/d/container/containers-applications[01;32mprajwal@PrajwalShrestha[00m:[01;34m/mnt/d/container/containers-applications[00m$ sc[K[Kexit
 [?2004lexit
 
-Script done on 2024-09-11 13:43:58+05:45 [COMMAND_EXIT_CODE="0"]
+Script done on 2024-09-11 17:40:10+05:45 [COMMAND_EXIT_CODE="0"]
